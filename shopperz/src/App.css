@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #b4dcfe;
+  padding: 1rem;
+}
+
+.navbar > a {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.active {
+  color: red;
+}
+
+.category-item-poster {
+  height: 12rem;
+  width: 12rem;
+}
+
+.category-items {display: flex; flex-flow: wrap;}
+
+.category-item {
+  width: 12rem;
+  margin: 0 2rem;
+  margin-top: 2rem;
+  flex-flow: wrap;
+  background-color: #b4f8fa;
+}
+
+.category-item-title{
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.category-item-price{
+  padding: 0.5rem;
+  font-weight: 800;
+}
+
+.cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 20rem;
+  background: #e3e3e3;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.cart-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1rem;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+.add-remove-btn {
+  display: flex;
+}
+
+.quantity {
+  padding: 1rem;
+}
+
+.cart-body {
+  padding: 1rem;
+}
